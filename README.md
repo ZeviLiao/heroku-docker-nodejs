@@ -25,7 +25,8 @@ https://github.com/heroku/docker-nodejs-hello-world
 ref:  
 https://blog.risingstack.com/node-hero-deploy-node-js-heroku-docker/
 
-- windows version.
+
+windows version.  
 delete all images.  
 https://gist.github.com/daredude/045910c5a715c02a3d06362830d045b6
 
