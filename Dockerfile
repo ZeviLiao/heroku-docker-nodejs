@@ -1,3 +1,8 @@
-FROM heroku/nodejs
+FROM risingstack/alpine:3.3-v4.2.6-1.1.3
 
-CMD bin/web
+COPY package.json package.json  
+RUN npm install
+
+# Add your source files
+COPY . .  
+CMD ["npm","start"] 
